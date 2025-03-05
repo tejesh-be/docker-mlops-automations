@@ -62,11 +62,11 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t gcr.io/YOUR_PROJECT_ID/my-app:latest .
+        docker build -t gcr.io/savvy-summit-444610-n2/my-app:latest .
 
     - name: Push Docker Image to GCR
       run: |
-          docker push gcr.io/YOUR_PROJECT_ID/my-app:latest
+          docker push gcr.io/savvy-summit-444610-n2/my-app:latest
       
    # - name: Build and push
    #   uses: docker/build-push-action@v2
